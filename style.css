@@ -124,7 +124,6 @@ h4{
 
 .section{
     height: 28rem;
-    /* max-height: 30rem; */
     padding: 0 20rem;
    
   
@@ -146,8 +145,9 @@ h4{
 
 .section.two{
     background-color: var(--clr-primary-900);
-    
-    
+    height: auto;
+    padding-bottom: 3rem;
+ 
 }
 
 .section.three{
@@ -160,7 +160,6 @@ h4{
     font-weight: 300;
  
 }
-
 
 
 
@@ -215,8 +214,9 @@ h4{
 
 .images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+   
    
 
 }
